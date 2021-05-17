@@ -1,0 +1,204 @@
+/******************************************
+GENERAL
+******************************************/
+
+body {
+	font-family: 'Raleway';
+}
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+
+/******************************************
+HEADER
+******************************************/
+
+#logo {
+	text-align: center;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+#logo h1:hover {
+	color: #ffcc00;
+}
+
+.main-header {	
+	margin-top: 0;
+	padding: 5px 0 0 0;
+	overflow: auto;
+	border-bottom: 1px solid black;	
+}
+
+h1 {
+	font-family: Raleway;
+	color: black;	
+	font-size: 40px;
+	margin: 0;
+	padding: 5px 0 10px 0;
+	font-weight: bold;	
+}
+
+
+/******************************************
+NAV
+******************************************/
+
+nav {	
+	text-align: center;
+	padding: 5px 0 5px 0;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li{
+	display: inline-block;	
+}
+
+nav ul li a {
+	font-family: Raleway;
+	color: black;
+	text-decoration: none;
+	padding: 0 10px;
+	font-size: 0.8em;
+}
+
+nav ul li a:hover {
+	color: #ffcc00;
+}
+
+/******************************************
+SECTION
+******************************************/
+
+.wrapper {	
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5% 0px 5%;
+	box-sizing: border-box;	
+}
+
+#gallery {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+
+img {
+	max-width: 100%;	
+}
+
+#gallery li {	
+	float: left;
+	width: 49.4%;
+	margin: 0 0.3%;
+}
+
+#gallery li p {	
+	margin: 0;	
+	border-top: 1px black solid;
+	padding-bottom: 5%;
+	font-size: 0.85em;
+	text-align: center;	
+}
+
+
+/******************************************
+FOOTER
+******************************************/
+
+.main-footer {
+	font-family: Raleway;
+	font-size: 0.7em;
+	text-align: center;
+	clear: both;
+	border-top: 1px solid black;
+	padding: 30px 0 20px 0;	
+}
+
+.main-footer ul {	
+	padding: 0;
+}
+
+.main-footer ul li {
+	display: inline-block;
+}
+
+.main-footer ul li a img {
+	width: 30px;
+	margin: 0 5px;
+}
+
+/******************************************
+ABOUT
+******************************************/
+
+.contenitore {
+	min-height: calc(100vh - 129.8px);
+}
+
+.foto-profilo {
+	display: block;
+	max-width: 200px;
+	margin: 40px auto;
+	border-radius: 100%;
+}
+
+.wrapper section p {
+	font-size: 0.85em;
+	line-height: 1.85em;
+	text-align: justify;
+}
+
+.about {
+	padding-top: 5%;
+}
+
+.about h3 {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+/******************************************
+CONTACT
+******************************************/
+
+#info h3 {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+#contatti h3 {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+#info p {
+	font-size: 0.85em;
+	line-height: 1.85em;
+	text-align: justify;
+}
+
+.contact {
+	padding-top: 5%;
+}
+
+#contact-info {
+	list-style: none;
+	padding: 0;
+	line-height: 1.85em;
+	font-size: 0.85em;	
+}
+
+#contact-info li a {
+	text-decoration: none;
+	color: black;	
+}
